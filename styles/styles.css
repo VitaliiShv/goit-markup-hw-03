@@ -1,0 +1,255 @@
+/* цвет соновного текста #757575 */
+
+/* вторичный цвет текста #212121 */
+
+/* акцент #2196F3 */
+
+/* цвет фона #F5F4FA */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --white: #ffffff;
+}
+
+body {
+  background-color: #e5e5e5;
+  color: var(--primary-text-color);
+
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+}
+body a {
+  text-decoration: none;
+}
+ul {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+/* logo */
+.logo {
+  color: #000000;
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo .logo-blue {
+  color: #2196f3;
+}
+
+ul {
+  list-style: none;
+}
+
+/* site-nav */
+.site-nav .link {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+/* addresses */
+.addresses .link {
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.addresses .link:hover,
+.addresses .link:focus {
+  color: #2196f3;
+}
+
+/* Sections */
+
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  outline: 1px solid red;
+}
+
+.hero-title {
+  color: var(--white);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  margin-bottom: 30px;
+  outline: 1px solid red;
+}
+
+.section {
+  padding: 94px 0;
+  outline: 1px solid red;
+}
+
+.section-title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+
+  outline: 1px solid red;
+  margin-bottom: 50px;
+}
+/* .benefits {
+  outline: 1px solid red;
+} */
+
+.benefits .title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  outline: 1px solid red;
+  margin-bottom: 10px;
+}
+
+.benefits .description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  outline: 1px solid red;
+}
+
+/* Team */
+.team .title {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.team-item .profession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+/* button */
+.hero .button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+
+.button.primary {
+  color: var(--white);
+  background-color: var(--accent-color);
+
+  padding: 10px 32px;
+  border-radius: 4px;
+  min-width: 200px;
+}
+
+.button.primary:hover {
+  color: var(--accent-color);
+  background-color: var(--white);
+  cursor: pointer;
+}
+
+.button.secondary {
+  color: var(--accent-color);
+  background-color: var(--white);
+}
+
+/* footer */
+.footer-logo {
+  color: var(--white);
+}
+.footer-address {
+  font-style: normal;
+  color: var(--white);
+}
+.contacts .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-address,
+.contacts {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* portfolio page */
+.filters {
+  text-align: center;
+}
+.filters .button {
+  font-family: inherit;
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+.filters .button:hover,
+.filters .button:focus {
+  color: var(--white);
+  background-color: var(--accent-color);
+}
+.works-list a {
+  text-decoration: none;
+}
+.works-list .title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.works-list .description {
+  color: var(--primary-text-color);
+
+  font-size: 16px;
+  line-height: 1.87;
+}
